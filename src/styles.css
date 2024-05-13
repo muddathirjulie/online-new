@@ -1,0 +1,409 @@
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+
+html {
+    margin-top: 0;
+  }
+
+section {
+    background-color: #291C3A;
+}
+
+.hero {
+    background-color: #291C3A;
+    height: 87.2vh;
+    color: white;
+    font-size: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.hero-area {
+    padding-left: 140px;
+    padding-bottom: 50px;
+}
+
+
+.hero-text {
+    margin-left: 80px;
+    margin-bottom: 50px;
+}
+
+nav {
+    text-align: right;
+    margin-right: 0;
+    padding: 10px;
+    display: flex;
+    flex-direction: column-reverse;
+    background-color: #291C3A;
+    line-height: 50px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a {
+    font-size: 17px;
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: #33d568;
+    text-decoration: none;
+}
+
+.nav-button {
+    border-radius: 5px;
+    text-align: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 300;
+    color:#33d568;
+    padding:5px;
+    border: 2px solid #33d568;
+    margin-top: 20px;
+}
+
+.nav-button a {
+    color: #33d568;
+    text-decoration: none;
+    padding: 5px;
+}
+
+.nav-number.active {
+    text-decoration: underline;
+}
+
+.logo {
+    height: 60px;
+    margin: 30px;
+    border-radius: 100px;
+    position: absolute;
+    top: -12px;
+    left: 0;
+    z-index: 999;
+}
+
+h1 {
+    font-size: 35px;
+    margin: 0;
+}
+
+h2 {
+    font-size:15px;
+    color: #33d568
+}
+
+p {
+    margin: 0;
+    font-size: 20px;
+    font-weight: 300;
+    color: white;
+}
+
+.button {
+    width: 200px;
+    height: 55px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 300;
+    padding-top: 5px;
+    margin-top: 60px;
+    border: 2px solid #33d568;
+}
+
+.button a{
+    color: #33d568;
+    text-decoration: none;
+}
+.button:hover {
+    background:none;
+}
+
+.button a:hover{
+    color: white;
+}
+
+.button:active{
+    background-color: #A9A9A9;
+    color: #808080;
+}
+
+.socials {
+    position: absolute;
+    top: 470px;
+    margin-left: -89.8px;
+  }
+  
+  .socials .social {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .vertical-line {
+    position: absolute;
+    bottom:0px;
+    left: 45px;
+    height: 25%;
+    border-left: 1px solid white;
+  }
+
+  .email {
+    position: absolute;
+    top: 350px;
+    right: 20px;
+    writing-mode: vertical-lr;
+  }
+
+  .vertical-line-new {
+    position: absolute;
+    bottom:0px;
+    right: 15px;
+    height:20%;
+    border-left: 1px solid white;
+  }
+
+.project-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.coming-soon {
+    opacity: 0.5;
+    pointer-events: none;
+}
+
+.coming-soon:hover {
+    cursor: not-allowed;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+hr {
+    margin: 0 20px;
+}
+
+.hamburger {
+    display: none;
+}
+
+.hamburger:focus {
+    outline: none;
+}
+
+.bio {
+    font-size: 20px;
+}
+
+.job {
+    font-size: 40px;
+    color: gray;
+    font-weight: bold;
+}
+
+.title {
+    font-size: 10px;
+    color: gray;
+    font-weight: bold;
+}
+
+.welcome-message{
+    font-size: large;
+    display: none;
+}
+
+footer {
+    background-color: #291C3A;
+    color: white;
+    text-align: center;
+    padding: 24px;
+}
+
+.skills {
+    text-align: center;
+    margin-top: -20px;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background: none;
+  }
+  
+  .grid-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5px;
+    padding: 20px;
+  }
+  
+  .grid-item img {
+    border-radius: 20px;
+    max-width: 70px;
+    max-height: 70px;
+  }
+
+  
+  @media only screen and (max-width: 768px) {
+    .hero {
+      font-size: 10px;
+      height: 100vh;
+    }
+
+    .hero-area {
+      margin-top: -200px;
+      padding-left: 0;
+    }
+
+    .logo {
+      display: none;
+    }
+
+    .hamburger {
+      display: block;
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      background: none;
+      border: none;
+      font-size: 24px;
+      color: white;
+      cursor: pointer;
+      z-index: 9999; /* Ensure the hamburger button is above other elements */
+    }
+
+    .nav-container {
+        display: none; /* Hide the navigation list by default */
+        position: relative;
+        top: 100px; /* Adjust as needed */
+        right: 27px;
+        background-color: #291C3A;
+        padding: 10px;
+        list-style-type: none;
+        width: 100%; /* Set the width to 100% */
+        transition: right 0.3s ease;
+        
+    }
+
+    .nav-container.active {
+        display: block; /* Show the navigation list when active */
+    }
+
+ .nav-container li {
+        text-align: right; /* Center the navigation items */
+        padding-right: 10px;
+    }
+
+    .nav-container li a {
+        margin-top:-70px;
+        display: block;
+        padding: 0;
+      color: white;
+      text-decoration: none;
+      font-size: 15px; /* Adjust as needed */
+    }
+
+    .nav-button{
+        display: block;
+        position: absolute;
+        margin-top: -8px;
+        right: -19px;
+        background: none;
+        border: none;
+        font-size: 24px;
+        color: white;
+        cursor: pointer;
+        z-index: 9999; /* Ensure the hamburger button is above other elements */
+    }
+    
+    .hero-text {
+        margin-bottom: 50px;
+        /* margin-left: -70px; Remove this line */
+    }
+
+    
+    .hero-text .h1 {
+      font-size: medium;
+    }
+    
+    .description {
+      display: none;
+    }
+    
+    .job {
+      font-size: small;
+    }
+
+    .socials{
+      display: none;
+    }
+
+    .skills {
+      display: none;
+    }
+
+    .email{
+      display: none;
+    }
+    
+    footer {
+      position: relative;
+    }
+    
+    .vertical-line,
+    .vertical-line-new {
+      display: none;
+    }
+    
+    .button {
+      width: 200px;
+      height: 50px;
+      margin-left: 20px;
+    }
+    
+    .welcome-message {
+      display: flex;
+      margin-top: 10px;
+      font-weight: bold;
+      justify-content: center;
+    }
+  }
+
+  @media only screen and (max-width: 500px) {
+    .hero {
+      font-size: 24px;
+    }
+  }
